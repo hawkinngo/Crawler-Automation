@@ -1,0 +1,22 @@
+# --- CẤU HÌNH & HỆ THỐNG ---
+python-dotenv           # Đọc file .env (User, Pass, IP)
+paramiko                # SSH vào Mini PC để kích hoạt Wake-on-LAN
+requests                # Gửi request HTTP cơ bản (nếu cần)
+
+# --- TRÍ TUỆ NHÂN TẠO (AI) ---
+ollama                  # Giao tiếp với Llama 3.1 trên Workstation
+
+# --- TÌM KIẾM & THU THẬP DỮ LIỆU ---
+duckduckgo-search       # "Đôi mắt" - Tìm kiếm Google/DuckDuckGo
+playwright              # "Cánh tay" - Trình duyệt ảo để crawl web
+beautifulsoup4          # Làm sạch HTML trước khi đưa cho AI đọc
+lxml                    # Bộ parser xử lý HTML cực nhanh cho BeautifulSoup
+
+# --- CƠ SỞ DỮ LIỆU (DATABASE) ---
+pymongo                 # Kết nối MongoDB (Lưu Data Crawl)
+qdrant-client           # Kết nối Qdrant (Lưu kiến thức/Vector - nếu dùng sau này)
+
+# --- GIAO DIỆN WEB (UI) ---
+streamlit               # Tạo Web App điều khiển cực nhanh
+pandas                  # Xử lý bảng dữ liệu để hiển thị lên UI
+# httpx==0.27.1

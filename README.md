@@ -1,4 +1,4 @@
-Titan-Crawler/
+Crawler-Automation/
 │
 ├── .env                        # Chứa IP Workstation, DB User/Pass (MẬT)
 ├── .gitignore                  # Chặn file rác, file .env
